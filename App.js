@@ -1,8 +1,8 @@
 import { Navigation } from 'react-native-navigation';
 
-import Login from './src/Login';
-import Home from './src/Home';
-import AddPost from './src/Admin/AddPost';
+import Login from './src/components/views/Login';
+import Home from './src/components/views/Home';
+import AddPost from './src/components/views/Admin/AddPost';
 
 Navigation.registerComponent("sellitApp.Login", ()  => Login);
 Navigation.registerComponent("sellitApp.Home", ()  => Home);
