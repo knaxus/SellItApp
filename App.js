@@ -1,23 +1,19 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Navigation } from 'react-native-navigation';
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
-      </View>
-    );
+import Login from './src/Login';
+import Home from './src/Home';
+import AddPost from './src/Admin/AddPost';
+
+Navigation.registerComponent("sellitApp.Login", ()  => Login);
+Navigation.registerComponent("sellitApp.Home", ()  => Home);
+Navigation.registerComponent("sellitApp.AddPost", ()  => AddPost);
+
+export default () => Navigation.startSingleScreenApp( {
+  screen: {
+    screen: "sellitApp.Login",
+    title: "Login",
+    navigatorStyle: {
+      navBarHidden: true
+    }
   }
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+})
