@@ -1,0 +1,241 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-navigation] C:\Users\ANKIT\Desktop\sellitApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-20:12
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\4375236b527b117ed1806bf0ae492233\AndroidManifest.xml:2:1-15:12
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\6fd851956071721eb6b4c5bdac5ad6fc\AndroidManifest.xml:2:1-14:12
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\5d73ca23d5e28af52d58b79a018a0bfc\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\591a8aeaa4b1fe030e22d9faff9889b9\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\89daf7b2fde60925633849183888985f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\234b55bab6145084a276f32177296b90\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\d6dd92b7e142bc5f905ef3be94b09213\AndroidManifest.xml:17:1-31:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\b6fe22249a306e77f729c6658a92074c\AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\11e8a6e270508ac4555095892439e583\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\ae17ae9f49c0cc8bbe50f1a14d5a9b63\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\ec3a851297137bb6ed34e8f68bece7c4\AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\bf799c442f452433d8002c99ba34529b\AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\21a59596f7ad02b7c6ca3e8f9c883266\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\237f04efefbafff0d8b88b1684556b24\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\ab66634546e9948fcf8105009661169d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\f994a09679fb6699a97f1b519f477039\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\d66f60b2bb6e217ce3dedddd5e583503\AndroidManifest.xml:17:1-26:12
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\212b94056613f7a8f09401f427134eb0\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\8d3fbe096cf2f48ebe7cb01f484a2bf9\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\dad0f4ce6b3f725cb0658476653e70a5\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a3ba9c8208c897b5cc563b4e1a398abe\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\46547dfb4fa18d6f4a155b6b6fcfe612\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\c7d0bbecbad878064f8e5343d7db6f94\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\cbdbc91be440a226b0154219f68a4e90\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9037716c1b73a8f14eda397ed6238689\AndroidManifest.xml:17:1-31:12
+INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
+	package
+		ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:2:5-28
+		INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
+		INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
+		INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\4375236b527b117ed1806bf0ae492233\AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\4375236b527b117ed1806bf0ae492233\AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:5:22-75
+application
+ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:7:5-24:19
+MERGED from [:react-native-navigation] C:\Users\ANKIT\Desktop\sellitApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
+MERGED from [:react-native-navigation] C:\Users\ANKIT\Desktop\sellitApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\4375236b527b117ed1806bf0ae492233\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\4375236b527b117ed1806bf0ae492233\AndroidManifest.xml:13:5-20
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\6fd851956071721eb6b4c5bdac5ad6fc\AndroidManifest.xml:12:5-20
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\6fd851956071721eb6b4c5bdac5ad6fc\AndroidManifest.xml:12:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\5d73ca23d5e28af52d58b79a018a0bfc\AndroidManifest.xml:11:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\5d73ca23d5e28af52d58b79a018a0bfc\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\591a8aeaa4b1fe030e22d9faff9889b9\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\591a8aeaa4b1fe030e22d9faff9889b9\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\89daf7b2fde60925633849183888985f\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\89daf7b2fde60925633849183888985f\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\234b55bab6145084a276f32177296b90\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\234b55bab6145084a276f32177296b90\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\d6dd92b7e142bc5f905ef3be94b09213\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\d6dd92b7e142bc5f905ef3be94b09213\AndroidManifest.xml:29:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\ec3a851297137bb6ed34e8f68bece7c4\AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\ec3a851297137bb6ed34e8f68bece7c4\AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\bf799c442f452433d8002c99ba34529b\AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\bf799c442f452433d8002c99ba34529b\AndroidManifest.xml:2:3-17
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\212b94056613f7a8f09401f427134eb0\AndroidManifest.xml:12:5-20
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\212b94056613f7a8f09401f427134eb0\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\8d3fbe096cf2f48ebe7cb01f484a2bf9\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\8d3fbe096cf2f48ebe7cb01f484a2bf9\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\dad0f4ce6b3f725cb0658476653e70a5\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\dad0f4ce6b3f725cb0658476653e70a5\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a3ba9c8208c897b5cc563b4e1a398abe\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a3ba9c8208c897b5cc563b4e1a398abe\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\46547dfb4fa18d6f4a155b6b6fcfe612\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\46547dfb4fa18d6f4a155b6b6fcfe612\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\c7d0bbecbad878064f8e5343d7db6f94\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\c7d0bbecbad878064f8e5343d7db6f94\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\cbdbc91be440a226b0154219f68a4e90\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\cbdbc91be440a226b0154219f68a4e90\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9037716c1b73a8f14eda397ed6238689\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9037716c1b73a8f14eda397ed6238689\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:9:7-39
+	android:icon
+		ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:12:7-38
+	android:name
+		ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:8:7-38
+activity#com.sellitapp.MainActivity
+ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:23:7-84
+MERGED from [:react-native-navigation] C:\Users\ANKIT\Desktop\sellitApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:9-17:40
+MERGED from [:react-native-navigation] C:\Users\ANKIT\Desktop\sellitApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:9-17:40
+	android:exported
+		ADDED from [:react-native-navigation] C:\Users\ANKIT\Desktop\sellitApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-navigation] C:\Users\ANKIT\Desktop\sellitApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation] C:\Users\ANKIT\Desktop\sellitApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\4375236b527b117ed1806bf0ae492233\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\4375236b527b117ed1806bf0ae492233\AndroidManifest.xml:7:5-9:41
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\6fd851956071721eb6b4c5bdac5ad6fc\AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\6fd851956071721eb6b4c5bdac5ad6fc\AndroidManifest.xml:8:5-10:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\5d73ca23d5e28af52d58b79a018a0bfc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\5d73ca23d5e28af52d58b79a018a0bfc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\591a8aeaa4b1fe030e22d9faff9889b9\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\591a8aeaa4b1fe030e22d9faff9889b9\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\89daf7b2fde60925633849183888985f\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\89daf7b2fde60925633849183888985f\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\234b55bab6145084a276f32177296b90\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\234b55bab6145084a276f32177296b90\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\d6dd92b7e142bc5f905ef3be94b09213\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\d6dd92b7e142bc5f905ef3be94b09213\AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\b6fe22249a306e77f729c6658a92074c\AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\b6fe22249a306e77f729c6658a92074c\AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\11e8a6e270508ac4555095892439e583\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\11e8a6e270508ac4555095892439e583\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\ae17ae9f49c0cc8bbe50f1a14d5a9b63\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\ae17ae9f49c0cc8bbe50f1a14d5a9b63\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\ec3a851297137bb6ed34e8f68bece7c4\AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\ec3a851297137bb6ed34e8f68bece7c4\AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\21a59596f7ad02b7c6ca3e8f9c883266\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\21a59596f7ad02b7c6ca3e8f9c883266\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\237f04efefbafff0d8b88b1684556b24\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\237f04efefbafff0d8b88b1684556b24\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\ab66634546e9948fcf8105009661169d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\ab66634546e9948fcf8105009661169d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\f994a09679fb6699a97f1b519f477039\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\f994a09679fb6699a97f1b519f477039\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\d66f60b2bb6e217ce3dedddd5e583503\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\d66f60b2bb6e217ce3dedddd5e583503\AndroidManifest.xml:20:5-43
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\212b94056613f7a8f09401f427134eb0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\212b94056613f7a8f09401f427134eb0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\8d3fbe096cf2f48ebe7cb01f484a2bf9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\8d3fbe096cf2f48ebe7cb01f484a2bf9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\dad0f4ce6b3f725cb0658476653e70a5\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\dad0f4ce6b3f725cb0658476653e70a5\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a3ba9c8208c897b5cc563b4e1a398abe\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a3ba9c8208c897b5cc563b4e1a398abe\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\46547dfb4fa18d6f4a155b6b6fcfe612\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\46547dfb4fa18d6f4a155b6b6fcfe612\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\c7d0bbecbad878064f8e5343d7db6f94\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\c7d0bbecbad878064f8e5343d7db6f94\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\cbdbc91be440a226b0154219f68a4e90\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\cbdbc91be440a226b0154219f68a4e90\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9037716c1b73a8f14eda397ed6238689\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9037716c1b73a8f14eda397ed6238689\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\591a8aeaa4b1fe030e22d9faff9889b9\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml
+activity#com.reactnativenavigation.controllers.NavigationActivity
+ADDED from [:react-native-navigation] C:\Users\ANKIT\Desktop\sellitApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:9-14:86
+	android:configChanges
+		ADDED from [:react-native-navigation] C:\Users\ANKIT\Desktop\sellitApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:13-83
+	android:name
+		ADDED from [:react-native-navigation] C:\Users\ANKIT\Desktop\sellitApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:13-84
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\591a8aeaa4b1fe030e22d9faff9889b9\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\89daf7b2fde60925633849183888985f\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\89daf7b2fde60925633849183888985f\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\234b55bab6145084a276f32177296b90\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\234b55bab6145084a276f32177296b90\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\d6dd92b7e142bc5f905ef3be94b09213\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\d6dd92b7e142bc5f905ef3be94b09213\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\d66f60b2bb6e217ce3dedddd5e583503\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\d66f60b2bb6e217ce3dedddd5e583503\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\8d3fbe096cf2f48ebe7cb01f484a2bf9\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\8d3fbe096cf2f48ebe7cb01f484a2bf9\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\dad0f4ce6b3f725cb0658476653e70a5\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\dad0f4ce6b3f725cb0658476653e70a5\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a3ba9c8208c897b5cc563b4e1a398abe\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a3ba9c8208c897b5cc563b4e1a398abe\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\46547dfb4fa18d6f4a155b6b6fcfe612\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\46547dfb4fa18d6f4a155b6b6fcfe612\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\c7d0bbecbad878064f8e5343d7db6f94\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\c7d0bbecbad878064f8e5343d7db6f94\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\cbdbc91be440a226b0154219f68a4e90\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\cbdbc91be440a226b0154219f68a4e90\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9037716c1b73a8f14eda397ed6238689\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9037716c1b73a8f14eda397ed6238689\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\591a8aeaa4b1fe030e22d9faff9889b9\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\591a8aeaa4b1fe030e22d9faff9889b9\AndroidManifest.xml:26:9-47
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

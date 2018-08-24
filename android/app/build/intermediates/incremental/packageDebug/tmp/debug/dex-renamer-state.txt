@@ -1,0 +1,4 @@
+#Fri Aug 24 20:44:08 IST 2018
+base.0=C\:\\Users\\ANKIT\\Desktop\\sellitApp\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
