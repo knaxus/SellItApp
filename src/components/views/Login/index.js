@@ -5,6 +5,7 @@ import { getOrientation, setOrientationListener, removeOrientationListner } from
 
 import LoadTabs from '../Tabs';
 import Logo from './logo';
+import LoginPanel from './loginPanel';
 
 class Login extends React.Component {
 
@@ -12,7 +13,8 @@ class Login extends React.Component {
     super(props);
 
     this.state = {
-      orientation: getOrientation(500)
+      orientation: getOrientation(500),
+      logoAnimation: false
     }
 
     setOrientationListener(this.changeOrientation)
@@ -21,6 +23,12 @@ class Login extends React.Component {
   changeOrientation = () => {
     this.setState({
       orientation: getOrientation(500)
+    })
+  }
+
+  showLogin = () => {
+    this.setState({
+      logoAnimation: true
     })
   }
 
@@ -33,6 +41,11 @@ class Login extends React.Component {
       <ScrollView>
         <View style={styles.container}>
           <Logo
+            showLogin={this.showLogin}
+            orientation={this.state.orientation}
+          />
+          <LoginPanel
+            show={this.state.logoAnimation}
             orientation={this.state.orientation}
           />
         </View>
@@ -46,6 +59,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
+    height: 320
   }
 });
 
