@@ -14,6 +14,11 @@
     "ios": "react-native run-ios",
     "test": "jest"
   },
+  "rnpm": {
+    "assets": [
+      "./assets/Fonts"
+    ]
+  },
   "jest": {
     "preset": "react-native"
   },
