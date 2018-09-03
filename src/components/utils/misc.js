@@ -7,7 +7,7 @@ export const getOrientation = (value) => {
 }
 
 export const setOrientationListener = (cb) => {
-    return Dimensions.addEventListener("change", () => cb);
+    return Dimensions.addEventListener("change", cb);
 }
 
 export const removeOrientationListner = () => {
