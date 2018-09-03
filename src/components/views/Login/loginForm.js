@@ -6,6 +6,7 @@ import Input from '../../utils/forms/inputs';
 class LoginForm extends Component {
 
     state = {
+        hasErrors: false,
         form: {
             email: {
                 value: "",
@@ -34,20 +35,40 @@ class LoginForm extends Component {
         }
     }
 
-  render() {
-    return (
-      <View style={styles.formInputContainer}>
-        <Input 
-            placeholder="Enter your email"
-            type={this.state.form.email.type}
-            value={this.state.form.email.value}
-            onChangeText={ value => () => alert('hey') }
-            autoCapitalize={"none"}
-            keyboardType={"email-address"}
-        />
-      </View>
-    );
-  }
+    updateInput = (name, value) => {
+        this.setState({
+            hasErrors: false
+        });
+
+        let formCopy = this.state.form;
+        formCopy[name].value = value;
+
+        this.setState({
+            form: formCopy
+        })
+    }
+
+    render() {
+        return (
+        <View style={styles.formInputContainer}>
+            <Input 
+                placeholder="Enter your email"
+                type={this.state.form.email.type}
+                value={this.state.form.email.value}
+                onChangeText={ value => this.updateInput("email", value) }
+                autoCapitalize={"none"}
+                keyboardType={"email-address"}
+            />
+            <Input 
+                placeholder="Enter your password"
+                type={this.state.form.password.type}
+                value={this.state.form.password.value}
+                onChangeText={ value => this.updateInput("password", value) }
+                secureTextEntry
+            />
+        </View>
+        );
+    }
 }
 
 const styles = StyleSheet.create({
