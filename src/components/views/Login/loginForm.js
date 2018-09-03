@@ -51,6 +51,18 @@ class LoginForm extends Component {
         })
     }
 
+    confirmPassword = () => (
+        this.state.type != 'Login' ? 
+        <Input
+            placeholder="Confirm your password"
+            type={this.state.form.confirmPassword.type}
+            value={this.state.form.confirmPassword.value}
+            onChangeText={ value => this.updateInput("confirmPassword", value) }
+            secureTextEntry
+        />
+        : null
+    )
+
     changeFormType = () => {
         const type = this.state.type;
 
@@ -79,6 +91,8 @@ class LoginForm extends Component {
                 onChangeText={ value => this.updateInput("password", value) }
                 secureTextEntry
             />
+            {this.confirmPassword()}
+
             <View style={
                 this.props.platform === "ios" ? styles.buttonStyleIos : styles.buttonStyleAndroid
             }>
