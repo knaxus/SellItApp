@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, Button, ScrollView } from 'react-native';
 
-import { getOrientation, setOrientationListener, removeOrientationListner } from '../../utils/misc';
+import { 
+  getOrientation, 
+  setOrientationListener, 
+  removeOrientationListner,
+  getPlatform 
+} from '../../utils/misc';
 
 import LoadTabs from '../Tabs';
 import Logo from './logo';
@@ -13,6 +18,7 @@ class Login extends React.Component {
     super(props);
 
     this.state = {
+      platform: getPlatform(),
       orientation: getOrientation(500),
       logoAnimation: false
     }
@@ -47,6 +53,7 @@ class Login extends React.Component {
           <LoginPanel
             show={this.state.logoAnimation}
             orientation={this.state.orientation}
+            platform={this.state.platform}
           />
         </View>
       </ScrollView>

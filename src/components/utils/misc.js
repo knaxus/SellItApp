@@ -1,5 +1,6 @@
 import {
-    Dimensions
+    Dimensions,
+    Platform
 } from 'react-native';
 
 export const getOrientation = (value) => {
@@ -12,4 +13,11 @@ export const setOrientationListener = (cb) => {
 
 export const removeOrientationListner = () => {
     return Dimensions.removeEventListener("change");
+}
+
+export const getPlatform = () => {
+    if(Platform.OS === "ios")
+        return "ios";
+    else
+        return "android";
 }

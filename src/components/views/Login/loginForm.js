@@ -6,6 +6,9 @@ import Input from '../../utils/forms/inputs';
 class LoginForm extends Component {
 
     state = {
+        type: 'Login',
+        action: 'Login',
+        actionMode: 'Not a user, Register',
         hasErrors: false,
         form: {
             email: {
@@ -48,6 +51,16 @@ class LoginForm extends Component {
         })
     }
 
+    changeFormType = () => {
+        const type = this.state.type;
+
+        this.setState({
+            type: type === 'Login' ? 'Register' : 'Login',
+            action: type === 'Login' ? 'Register' : 'Login',
+            actionMode: type === 'Login' ? 'Login' : 'Not a user, Register'
+        })
+    }
+
     render() {
         return (
         <View style={styles.formInputContainer}>
@@ -66,6 +79,31 @@ class LoginForm extends Component {
                 onChangeText={ value => this.updateInput("password", value) }
                 secureTextEntry
             />
+            <View style={
+                this.props.platform === "ios" ? styles.buttonStyleIos : styles.buttonStyleAndroid
+            }>
+                <Button
+                    title={this.state.action}
+                    color="#fd9727"
+                    onPress={() => alert('action')}
+                />
+            </View>
+            <View style={
+                this.props.platform === "ios" ? styles.buttonStyleIos : styles.buttonStyleAndroid
+            }>
+                <Button
+                    title={this.state.actionMode}
+                    color="lightgrey"
+                    onPress={this.changeFormType}
+                />
+            </View>
+            <View>
+                <Button
+                    title="skip"
+                    color="lightgrey"
+                    onPress={() => alert('skip')}
+                />
+            </View>
         </View>
         );
     }
@@ -74,6 +112,13 @@ class LoginForm extends Component {
 const styles = StyleSheet.create({
     formInputContainer: {
         minHeight: 400
+    },
+    buttonStyleAndroid: {
+        marginBottom: 10,
+        marginTop: 10,
+    },
+    buttonStyleIos: {
+        marginBottom: 0,
     }
 });
 
