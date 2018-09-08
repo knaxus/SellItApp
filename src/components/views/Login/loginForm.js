@@ -50,7 +50,7 @@ class LoginForm extends Component {
         formCopy[name].value = value;
 
         let rules = formCopy[name].rules;
-        let valid = ValidationRules(value, rules);
+        let valid = ValidationRules(value, rules, formCopy);
 
         console.log(valid);
 
