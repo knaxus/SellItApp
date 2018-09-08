@@ -3,6 +3,7 @@ import { StyleSheet, View, Text, Button } from 'react-native';
 
 import Input from '../../utils/forms/inputs';
 import ValidationRules from '../../utils/forms/validationRules';
+import LoadTabs from '../Tabs';
 
 class LoginForm extends Component {
 
@@ -83,6 +84,40 @@ class LoginForm extends Component {
         })
     }
 
+    formHasErrors = () => (
+        this.state.hasErrors ? 
+        <View style={styles.errorContainer}>
+            <Text style={styles.errorLabel}>Opps, check your info</Text>
+        </View>
+        : null
+    )
+    
+    submitUser = () => {
+        let isFormValid = true;
+        let formToSubmit = {};
+        const formCopy = this.state.form;
+
+        for(let key in formCopy) {
+            if(this.state.type === 'Login') {
+            if(key !== 'confirmPassword') {
+                isFormValid = isFormValid && formCopy[key].valid;
+                formToSubmit[key] = formCopy[key].value; 
+            }
+            } else {
+                isFormValid = isFormValid && formCopy[key].valid;
+                formToSubmit[key] = formCopy[key].value; 
+            }
+        }
+
+        if(isFormValid) {
+            console.log(formToSubmit);
+        } else {
+            this.setState({
+                hasErrors: true
+            })
+        }
+    }
+
     render() {
         return (
         <View style={styles.formInputContainer}>
@@ -101,7 +136,9 @@ class LoginForm extends Component {
                 onChangeText={ value => this.updateInput("password", value) }
                 secureTextEntry
             />
+
             {this.confirmPassword()}
+            {this.formHasErrors()}
 
             <View style={
                 this.props.platform === "ios" ? styles.buttonStyleIos : styles.buttonStyleAndroid
@@ -109,7 +146,7 @@ class LoginForm extends Component {
                 <Button
                     title={this.state.action}
                     color="#fd9727"
-                    onPress={() => alert('action')}
+                    onPress={this.submitUser}
                 />
             </View>
             <View style={
@@ -125,7 +162,7 @@ class LoginForm extends Component {
                 <Button
                     title="skip"
                     color="lightgrey"
-                    onPress={() => alert('skip')}
+                    onPress={() => LoadTabs()}
                 />
             </View>
         </View>
@@ -143,6 +180,18 @@ const styles = StyleSheet.create({
     },
     buttonStyleIos: {
         marginBottom: 0,
+    },
+    errorContainer: {
+        marginBottom: 10,
+        padding: 8,
+        marginTop: 8,
+        backgroundColor: 
+        "#FFCDD2"
+    },
+    errorLabel: {
+        color: '#D32F2F',
+        fontFamily: 'Roboto-Black',
+        textAlign: 'center',
     }
 });
 
