@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Text, Button } from 'react-native';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
 
 import Input from '../../utils/forms/inputs';
 import ValidationRules from '../../utils/forms/validationRules';
 import LoadTabs from '../Tabs';
+import { signUp } from '../../Store/actions/user_actions';
 
 class LoginForm extends Component {
 
@@ -110,7 +113,13 @@ class LoginForm extends Component {
         }
 
         if(isFormValid) {
-            console.log(formToSubmit);
+            if(this.state.type === "Login") {
+
+            } else {
+                this.props.signUp(formToSubmit).then(() => {
+                    console.log('successfull');
+                });
+            }
         } else {
             this.setState({
                 hasErrors: true
@@ -195,4 +204,14 @@ const styles = StyleSheet.create({
     }
 });
 
-export default LoginForm;
+function mapStateToProps(state) {
+    return {
+        User: state.user
+    }
+}
+
+function mapDispatchToProps(dispatch) {
+    return bindActionCreators({signUp}, dispatch)
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(LoginForm);
