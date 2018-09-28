@@ -70,7 +70,7 @@ const LoadTabs = () => {
             drawer: {
                 left: {
                     screen: "sellitApp.SideDrawerComponent",
-                    fixedWidth: 500
+                    fixedWidth: 900
                 }
             }
         });
