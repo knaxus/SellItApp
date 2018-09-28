@@ -1,16 +1,20 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, Button, ScrollView } from 'react-native';
+import { StyleSheet, Text, View, Button, ScrollView, ActivityIndicator } from 'react-native';
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
 
 import { 
   getOrientation, 
   setOrientationListener, 
   removeOrientationListner,
-  getPlatform 
+  getPlatform,
+  getTokens,
+  setTokens 
 } from '../../utils/misc';
-
 import LoadTabs from '../Tabs';
 import Logo from './logo';
 import LoginPanel from './loginPanel';
+import { autoSignIn } from '../../Store/actions/user_actions';
 
 class Login extends React.Component {
 
@@ -18,6 +22,7 @@ class Login extends React.Component {
     super(props);
 
     this.state = {
+      loading: true,
       platform: getPlatform(),
       orientation: getOrientation(500),
       logoAnimation: false
@@ -42,22 +47,50 @@ class Login extends React.Component {
     removeOrientationListner()
   }
 
+  componentDidMount() {
+    getTokens((values) => {
+      if(values[0][1] === null) {
+        this.setState({ loading: false });
+      } else {
+        this.props.autoSignIn(values[1][1]).then(() => {
+          if(!this.props.User.userData.token) {
+            this.setState({ loading: false });
+          } else {
+              setTokens(this.props.User.userData, () => {
+                LoadTabs();
+              })
+          }
+        });
+      }
+    });
+  }
+
   render() {
-    return (
-      <ScrollView>
-        <View style={styles.container}>
-          <Logo
-            showLogin={this.showLogin}
-            orientation={this.state.orientation}
-          />
-          <LoginPanel
-            show={this.state.logoAnimation}
-            orientation={this.state.orientation}
-            platform={this.state.platform}
-          />
+
+    if(this.state.loading) {
+      return (
+        <View style={styles.loading}>
+          <ActivityIndicator/>
         </View>
-      </ScrollView>
-    );
+      )
+    } else {
+      return (
+        <ScrollView>
+          <View style={styles.container}>
+            <Logo
+              showLogin={this.showLogin}
+              orientation={this.state.orientation}
+            />
+            <LoginPanel
+              show={this.state.logoAnimation}
+              orientation={this.state.orientation}
+              platform={this.state.platform}
+            />
+          </View>
+        </ScrollView>
+      );
+    }
+
   }
 }
 
@@ -66,7 +99,23 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
+  },
+  loading: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
   }
 });
 
-export default Login;
+function mapStateToProps(state) {
+  return {
+    User: state.User
+  }
+}
+
+function mapDispatchToProps(dispatch) {
+  return bindActionCreators({ autoSignIn }, dispatch);
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Login);
