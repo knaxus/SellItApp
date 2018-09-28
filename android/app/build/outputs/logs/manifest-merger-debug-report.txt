@@ -4,6 +4,7 @@ ADDED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest
 INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
 INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
 INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-vector-icons] C:\Users\ANKIT\Desktop\sellitApp\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-navigation] C:\Users\ANKIT\Desktop\sellitApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-20:12
 MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\78ff761e86ecc6e3c0e71de4780802f5\AndroidManifest.xml:2:1-15:12
 MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\e9da1fb36ece465dfc397c6a6e44843c\AndroidManifest.xml:2:1-14:12
@@ -137,6 +138,8 @@ uses-sdk
 INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\ANKIT\Desktop\sellitApp\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-vector-icons] C:\Users\ANKIT\Desktop\sellitApp\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] C:\Users\ANKIT\Desktop\sellitApp\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-navigation] C:\Users\ANKIT\Desktop\sellitApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-navigation] C:\Users\ANKIT\Desktop\sellitApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\ANKIT\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\78ff761e86ecc6e3c0e71de4780802f5\AndroidManifest.xml:7:5-9:41
