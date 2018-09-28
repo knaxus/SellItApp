@@ -1,6 +1,7 @@
 import {
     Dimensions,
-    Platform
+    Platform,
+    AsyncStorage
 } from 'react-native';
 
 export const APIKEY = `AIzaSyDk5jKEtGPo7OSQF8dykQcMHlcake-Bg2M`;
@@ -24,4 +25,29 @@ export const getPlatform = () => {
         return "ios";
     else
         return "android";
+}
+
+export const getTokens = (cb) => {
+    AsyncStorage.multiGet([
+        '@aellitApp@token',
+        '@aellitApp@refreshToken',
+        '@aellitApp@expireToken',
+        '@aellitApp@uid',
+    ]).then(value => {
+        cb(value);
+    })
+}
+
+export const setTokens = (values, cb) => {
+    const dateNow = new Date();
+    const expiration = dateNow.getTime() + (3600 * 1000);
+
+    AsyncStorage.multiSet([
+        ['@aellitApp@token', values.token],
+        ['@aellitApp@refreshToken', values.refToken],
+        ['@aellitApp@expireToken', expiration.toString()],
+        ['@aellitApp@uid', values.uid],
+    ]).then( response => {
+        cb();
+    });
 }

@@ -7,6 +7,7 @@ import Input from '../../utils/forms/inputs';
 import ValidationRules from '../../utils/forms/validationRules';
 import LoadTabs from '../Tabs';
 import { signUp, signIn } from '../../Store/actions/user_actions';
+import { setTokens, getTokens } from '../../utils/misc';
 
 class LoginForm extends Component {
 
@@ -94,6 +95,18 @@ class LoginForm extends Component {
         </View>
         : null
     )
+
+    manageAccess = () => {
+        if(!this.props.User.userData.uid) {
+            this.setState({ hasErrors: true });
+        } else {
+            setTokens(this.props.User.userData, () => {
+                // console.log('works');
+                this.setState({ hasErrors: false });
+                LoadTabs();
+            })
+        }
+    }
     
     submitUser = () => {
         let isFormValid = true;
@@ -115,12 +128,13 @@ class LoginForm extends Component {
         if(isFormValid) {
             if(this.state.type === "Login") {
                 this.props.signIn(formToSubmit).then(() => {
-                    console.log(this.props.User);
-
+                    this.manageAccess();
+                    // console.log(this.props.User);
                 })
             } else {
                 this.props.signUp(formToSubmit).then(() => {
-                    console.log(this.props.User);
+                    this.manageAccess();
+                    // console.log(this.props.User);
                 });
             }
         } else {
@@ -128,6 +142,12 @@ class LoginForm extends Component {
                 hasErrors: true
             })
         }
+    }
+
+    componentDidMount() {
+        getTokens((values) => {
+            console.log(values);
+        })
     }
 
     render() {
