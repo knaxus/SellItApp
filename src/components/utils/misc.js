@@ -37,6 +37,33 @@ export const navigatorDrawer = (event, $this) => {
     }
 }
 
+export const navigatorDeepLink = (event, $this) => {
+    if(event.type === "DeepLink") {
+        $this.props.navigator.toggleDrawer({
+            side: 'left',
+            animated: true
+        });
+
+        if(event.payload.typeLink === 'tab') {
+            // Switch to the Tab
+            $this.props.navigator.switchToTab({
+                tabIndex: event.payload.indexLink
+            });
+        } else {
+            // Open a new modal
+            $this.props.navigator.showModal({
+                screen: event.link,
+                animationType: 'slide-horizontal',
+                navigatorStyle: {
+                    navBarBackgroundColor: '#00ADA9',
+                    screenBackgroundColor: '#ffffff'
+                },
+                backButtonHidden: false,
+            })
+        }
+    }
+} 
+
 export const getTokens = (cb) => {
     AsyncStorage.multiGet([
         '@aellitApp@token',

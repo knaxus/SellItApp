@@ -27,7 +27,7 @@ class SideDrawerComponent extends Component {
       {
         value: "My Posts",
         iconName: "th-list",
-        shouldGoto: "sellitApp.AddPost",
+        shouldGoto: "sellitApp.UserPosts",
         typeLink: "view",
         index: null,
         privacy: true
@@ -35,7 +35,7 @@ class SideDrawerComponent extends Component {
       {
         value: "Logout",
         iconName: "sign-out",
-        shouldGoto: "sellitApp.AddPost",
+        shouldGoto: "sellitApp.Login",
         typeLink: "view",
         index: null,
         privacy: true
@@ -51,7 +51,15 @@ class SideDrawerComponent extends Component {
       iconStyle={{width: 15}}
       color="#ffffff"
       size={20}
-      onPress={() => alert('click')}
+      onPress={() => {
+        this.props.navigator.handleDeepLink({
+          link: button.shouldGoto,
+          payload: {
+            typeLink: button.typeLink,
+            indexLink: button.index
+          }
+        })
+      }}
     >
       <Text style={styles.buttonText}>
         {button.value}

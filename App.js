@@ -7,6 +7,7 @@ import Login from './src/components/views/Login';
 import Home from './src/components/views/Home';
 import AddPost from './src/components/views/Admin/AddPost';
 import SideDrawerComponent from './src/components/views/SideDrawer';
+import UserPosts from './src/components/views/Admin/UserPosts';
 
 const store = ConfigureStore();
 
@@ -38,6 +39,14 @@ Navigation.registerComponent(
   "sellitApp.SideDrawerComponent", 
   ()  => 
   SideDrawerComponent,
+  store,
+  Provider
+);
+
+Navigation.registerComponent(
+  "sellitApp.UserPosts", 
+  ()  => 
+  UserPosts,
   store,
   Provider
 );
