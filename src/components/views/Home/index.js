@@ -9,12 +9,19 @@ class Home extends Component {
     super(props);
 
     this.state = {
-      categories: ['All', 'Sports', 'Music', 'Clothing', 'Electronics']
+      categories: ['All', 'Sports', 'Music', 'Clothing', 'Electronics'],
+      categorySelected: "All"
     }
 
     this.props.navigator.setOnNavigatorEvent((event) => {
       navigatorDeepLink(event, this);
       navigatorDrawer(event, this);
+    });
+  }
+
+  upadteCategoryHandler = (value) => {
+    this.setState({ 
+      categorySelected: value 
     });
   }
 
@@ -24,6 +31,8 @@ class Home extends Component {
         <View style={styles.container}>
           <HorizontalScrollIcons
             categories={this.state.categories}
+            categorySelected={this.state.categorySelected}
+            upadteCategoryHandler={this.upadteCategoryHandler}
           />
         </View>
       </ScrollView>

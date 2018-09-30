@@ -34,7 +34,23 @@ class HorizontalScrollIcons extends Component {
         categories ? 
             categories.map( item => (
                 <View style={{ marginRight: 15 }} key={item}>
-                    <Text>{item}</Text>
+                    <Icon.Button
+                        name={categoryIcons(item)}
+                        iconStyle={{ marginRight: 10, marginLeft: 3 }}
+                        backgroundColor={
+                            this.props.categorySelected !== item ? '#c1c1c1' : '#FF6444'  
+                            }
+                        size={20}
+                        borderRadius={100}
+                        onPress={() => this.props.upadteCategoryHandler(item)}
+                    >
+                        <Text style={{
+                            color: '#ffffff',
+                            marginRight: 5
+                        }}>
+                            {item}
+                        </Text>
+                    </Icon.Button>
                 </View>
         )) 
         : null
