@@ -35,8 +35,8 @@ class SideDrawerComponent extends Component {
       {
         value: "Logout",
         iconName: "sign-out",
-        shouldGoto: "sellitApp.Login",
-        typeLink: "view",
+        shouldGoto: "sellitApp.AddPost",
+        typeLink: "tab",
         index: null,
         privacy: true
       },
