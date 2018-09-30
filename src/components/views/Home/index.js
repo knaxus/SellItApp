@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, ScrollView } from 'react-native';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
 
 import { navigatorDrawer, navigatorDeepLink } from '../../utils/misc';
 import HorizontalScrollIcons from './horizontalScrollIcons';
+import { getArticles } from '../../Store/actions/articles_actions';
 
 class Home extends Component {
   constructor(props) {
@@ -23,6 +26,12 @@ class Home extends Component {
     this.setState({ 
       categorySelected: value 
     });
+  }
+
+  componentDidMount() {
+    this.props.getArticles('All').then(() => {
+      console.log(this.props.Articles.list);
+    })
   }
 
   render() {
@@ -46,4 +55,15 @@ const styles = StyleSheet.create({
   }
 });
 
-export default Home;
+function mapStateToProps(state) {
+  console.log(state);
+  return {
+    Articles: state.Article
+  }
+}
+
+function mapDispatchToProps(dispatch) {
+  return bindActionCreators({getArticles}, dispatch);
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Home);
