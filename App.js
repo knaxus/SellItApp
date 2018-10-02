@@ -8,6 +8,7 @@ import Home from './src/components/views/Home';
 import AddPost from './src/components/views/Admin/AddPost';
 import SideDrawerComponent from './src/components/views/SideDrawer';
 import UserPosts from './src/components/views/Admin/UserPosts';
+import Article from './src/components/views/Article';
 
 const store = ConfigureStore();
 
@@ -47,6 +48,14 @@ Navigation.registerComponent(
   "sellitApp.UserPosts", 
   ()  => 
   UserPosts,
+  store,
+  Provider
+);
+
+Navigation.registerComponent(
+  "sellitApp.Article", 
+  ()  => 
+  Article,
   store,
   Provider
 );
