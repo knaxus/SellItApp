@@ -23,7 +23,7 @@ const navLeftButton = (icons) => {
     }
 }
 
-const LoadTabs = () => {
+const LoadTabs = (allow) => {
     Promise.all([
         Icon.getImageSource('bars', 20, 'white'),
         Icon.getImageSource('dollar', 20, 'white'),
@@ -42,7 +42,7 @@ const LoadTabs = () => {
                     }
                 },
                 {
-                    screen: "sellitApp.AddPost",
+                    screen: allow ? "sellitApp.AddPost" : "sellitApp.NotAllowed",
                     label: "Sell It",
                     title: "Sell It",
                     icon: icons[1],

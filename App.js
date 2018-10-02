@@ -6,6 +6,8 @@ import ConfigureStore from './src/components/Store/config';
 import Login from './src/components/views/Login';
 import Home from './src/components/views/Home';
 import AddPost from './src/components/views/Admin/AddPost';
+import NotAllowed from './src/components/views/Admin/AddPost/notallowed';
+
 import SideDrawerComponent from './src/components/views/SideDrawer';
 import UserPosts from './src/components/views/Admin/UserPosts';
 import Article from './src/components/views/Article';
@@ -59,6 +61,15 @@ Navigation.registerComponent(
   store,
   Provider
 );
+
+Navigation.registerComponent(
+  "sellitApp.NotAllowed", 
+  ()  => 
+  NotAllowed,
+  store,
+  Provider
+);
+
 
 export default () => Navigation.startSingleScreenApp( {
   screen: {
