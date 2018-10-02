@@ -28,7 +28,18 @@ class Home extends Component {
 
   upadteCategoryHandler = (value) => {
     this.setState({ 
-      categorySelected: value 
+      isLoading: true,
+      categorySelected: value,
+      articles: [] 
+    });
+
+    this.props.getArticles(value).then(() => {
+      const newArticles = gridTwoColumns(this.props.Articles.list)
+
+      this.setState({
+        isLoading: false,
+        articles: newArticles
+      });
     });
   }
 
@@ -39,8 +50,8 @@ class Home extends Component {
       this.setState({
         isLoading: false,
         articles: newArticles
-      })
-    })
+      });
+    });
   }
 
   showArticles = () => (

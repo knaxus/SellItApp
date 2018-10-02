@@ -19,7 +19,7 @@ const BlockItem = (props) => {
             <Image
                 resizeMode={"cover"}
                 style={styles.itemImage}
-                source={{uri: 'https://loremflickr.com/400/400/girl,brazil,dog'}}
+                source={{uri: 'https://picsum.photos/400/400/?random'}}
             />
         </View>
     )
@@ -30,7 +30,12 @@ const BlockItem = (props) => {
                 onPress={() => alert('go to post')}
                 style={{flex: 2}}
             >
-                <View>
+                <View
+                    style={[
+                        styles.blockGridStyle, 
+                        styles.blockGridStyleLeft
+                        ]}
+                >
                     {itemImage()}
                     {itemText(item.blockOne)}
                 </View>
@@ -39,7 +44,12 @@ const BlockItem = (props) => {
                 onPress={() => alert('go to post')}
                 style={{flex: 2}}            
             >
-                <View>
+                <View
+                    style={[
+                        styles.blockGridStyle, 
+                        styles.blockGridStyleRight
+                        ]}
+                >
                     {itemImage()}
                     {itemText(item.blockTwo)}
                 </View>
@@ -79,6 +89,15 @@ const styles = StyleSheet.create({
         fontFamily: 'Roboto-Black',
         color: '#00ADA9',
         marginBottom: 5,
+    },
+    blockGridStyle: {
+        backgroundColor: '#F1F1F1',
+    },
+    blockGridStyleLeft: {
+        marginRight: 2.5,
+    },
+    blockGridStyleRight: {
+        marginLeft: 2.5,
     }
 })
 
